@@ -20,20 +20,36 @@
 
     /* APP BACKGROUND */
     --background-image: url('https://pbs.twimg.com/media/GMADrMabMAAJ476.jpg:orig');
-    
-    /* OTHER */
-    --custom-channel-textarea-text-area-height: calc((44px / 1.25) + (var(--space-xs)));
 }
+
+
+/* Custom CSS  */
+
+
+/* Other */
+.panel__5dec7 {
+    padding: 3px;
+}
+
+.visual-refresh {
+    --custom-channel-header-height: calc(var(--guildbar-avatar-size) + var(--space-xxs));
+}
+.visual-refresh .topPill_b3f026 .item_b3f026 {
+    min-height: 28px;
+}
+
 
 /* Nitro seller */
 .upsellContent__5997d {
     background-color: transparent;
 }
 
+
 /* Current user profile */
 :is(.visual-refresh) .panels_c48ade {
     background: rgba(0, 0, 0, 0.5);
 }
+
 
 /* Voice info compo */
 .visual-refresh .panels_c48ade {
@@ -49,6 +65,24 @@
 .visual-refresh .slateTextArea_ec4baf {
     margin-left: 5px;
 }
+:root {
+    --custom-channel-textarea-text-area-height: calc((44px / 1.25) + (var(--space-xs)));
+    --custom-channel-textarea-text-area-max-height: 65vh;
+}
+:where(.visual-refresh) .inner__74017 {
+    padding-left: calc(var(--space-16) - 1px - 2px);
+}
+
+/* Upload button */
+.visual-refresh .attachButton__0923f {
+    padding: var(--space-6) var(--space-12);
+}
+
+/* Bot icon on chat field */
+.visual-refresh .icon__4d3a9 {
+    padding: var(--space-6) var(--space-12);
+}
+
 
 /* Members list */
 .visual-refresh .memberInner__5d473 {
@@ -67,10 +101,12 @@
     margin-left: 4px;
 }
 
+
 /* Guilds list */
 .scroller_ef3116 > div:nth-child(2) {
     margin-bottom: 0px;
 }
+
 
 /* Screen Share */
 .visual-refresh .segmentControlOption_a2de16 {
@@ -99,4 +135,60 @@
 }
 .footer__49fc1, .header__49fc1 {
     padding: calc(var(--modal-vertical-padding) / 2) calc(var(--modal-horizontal-padding) / 2);
+}
+
+
+/* Manage role */
+.header_c6bf1b {
+    background-color: transparent;
+}
+.titleContainer_e29cd7 {
+    background-color: transparent;
+}
+.list_e29cd7 {
+    padding-left: 15px;
+}
+
+
+/* Connected application */
+.formNotice_f43ba5 {
+    margin-bottom: 20px;
+}
+.headerV2__50a54 {
+    padding: 14px;
+}
+.appDetailsContainer__50a54 .appDetailsSection__50a54 {
+    padding: 12px;
+}
+.appDetailsContainer__50a54 {
+    padding: 4px 12px;
+}
+.footer__50a54 {
+    margin: 8px 0;
+}
+
+
+/* Sticker container */
+.row_c6367b {
+    grid-template-columns: repeat(auto-fill, 90px) !important;
+    height: 85px !important;
+}
+
+.visual-refresh .drawerSizingWrapper__08434 {
+    width: 725px !important;
+}
+
+.visual-refresh .positionContainer__08434 {
+    height: 550px;
+}
+
+.popout__3f413 {
+    max-height: 500px !important;
+}
+
+
+/* Activity */
+.firstCardContainer__84832 .card__84832,
+.remainingCardContainer__84832 .card__84832 {
+    backdrop-filter: blur(6px);
 }
