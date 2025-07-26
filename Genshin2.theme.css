@@ -188,3 +188,10 @@
 .remainingCardContainer__84832 .card__84832 {
     backdrop-filter: blur(6px);
 }
+
+
+/* Channel list space fixer */
+.align-chat-input .container__2637a {
+    padding-bottom: 0px;
+}
+
