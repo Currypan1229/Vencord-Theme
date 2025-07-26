@@ -59,30 +59,26 @@
 
 
 /* Text Input area */
-.visual-refresh .attachButton__0923f {
-    padding: var(--space-8) var(--space-md);
+:where(.visual-refresh) .inner__74017 {
+    padding-left: calc(var(--space-16) - 1px - 2px);
+}
+:root {
+    --custom-channel-textarea-text-area-height: calc((44px / 1.25) + (var(--space-xs)));
+    --custom-channel-textarea-text-area-max-height: 60vh;
 }
 .visual-refresh .slateTextArea_ec4baf {
     margin-left: 5px;
 }
-:root {
-    --custom-channel-textarea-text-area-height: calc((44px / 1.25) + (var(--space-xs)));
-    --custom-channel-textarea-text-area-max-height: 65vh;
-}
-:where(.visual-refresh) .inner__74017 {
-    padding-left: calc(var(--space-16) - 1px - 2px);
-}
 
 /* Upload button */
-.visual-refresh .attachButton__0923f {
-    padding: var(--space-6) var(--space-12);
+.align-chat-input .attachWrapper__0923f {
+    padding: 3px 2px 6px 5px;
 }
 
 /* Bot icon on chat field */
 .visual-refresh .icon__4d3a9 {
     padding: var(--space-6) var(--space-12);
 }
-
 
 /* Members list */
 .visual-refresh .memberInner__5d473 {
